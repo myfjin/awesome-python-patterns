@@ -1,0 +1,601 @@
+{
+  "date": "2026-07-04",
+  "count": 99,
+  "provenance": "harvested from qwen3-coder:480b (Ollama cloud), human-curated, run-gated",
+  "patterns": [
+    {
+      "pattern": "raft_consensus",
+      "category": "distributed",
+      "source_session": 61,
+      "md5": "783de3dcd5dd0c34603a6f35bcdb4931"
+    },
+    {
+      "pattern": "circuit_breaker",
+      "category": "resilience",
+      "source_session": 62,
+      "md5": "e3a85aab9a6f570811c29273c14dd41c"
+    },
+    {
+      "pattern": "object_pool_allocator",
+      "category": "performance",
+      "source_session": 64,
+      "md5": "a887a89ddc8c5deb988b897d2754c4f5"
+    },
+    {
+      "pattern": "rate_limiter",
+      "category": "networking",
+      "source_session": 65,
+      "md5": "d48a08ca3426cbde7cb68ad0625e5254"
+    },
+    {
+      "pattern": "trace_span_collector",
+      "category": "monitoring",
+      "source_session": 66,
+      "md5": "3c2883202123322b565711c7bfff1c87"
+    },
+    {
+      "pattern": "priority_queue_scheduler",
+      "category": "async",
+      "source_session": 67,
+      "md5": "a316fbacaa26f7976ac4226056559db0"
+    },
+    {
+      "pattern": "segmented_wal",
+      "category": "persistence",
+      "source_session": 68,
+      "md5": "01af827877848d47fc5d831150d56634"
+    },
+    {
+      "pattern": "secure_envelope",
+      "category": "security",
+      "source_session": 69,
+      "md5": "15e8c4f31cba8206f4776273fbad6c31"
+    },
+    {
+      "pattern": "metric_aggregation_engine",
+      "category": "monitoring",
+      "source_session": 70,
+      "md5": "4ce106aa2a06a324a42d625397c70072"
+    },
+    {
+      "pattern": "saga_coordinator",
+      "category": "architecture",
+      "source_session": 71,
+      "md5": "c14561dff51d906724aef808a4ae1674"
+    },
+    {
+      "pattern": "event_sourcing_store",
+      "category": "architecture",
+      "source_session": 72,
+      "md5": "8754dce9afdf8d1bf9cb5762e13eca93"
+    },
+    {
+      "pattern": "connection_pool_health_checks",
+      "category": "networking",
+      "source_session": 73,
+      "md5": "adce306aca194c0716ad0ae09e2f2b39"
+    },
+    {
+      "pattern": "dead_letter_queue",
+      "category": "resilience",
+      "source_session": 74,
+      "md5": "2fb5a7f4e330660a7cc5cbb4db42b088"
+    },
+    {
+      "pattern": "budget_allocator",
+      "category": "performance",
+      "source_session": 75,
+      "md5": "f7a35be44ecab8b6722aac9cd1d00bd6"
+    },
+    {
+      "pattern": "trie",
+      "category": "data_structures",
+      "source_session": 77,
+      "md5": "a8b9bc0c0e4dcc5ccce36c65db57d4fc"
+    },
+    {
+      "pattern": "write_ahead_log",
+      "category": "persistence",
+      "source_session": 78,
+      "md5": "55b820d470b8be069a8f59e90fbe03b2"
+    },
+    {
+      "pattern": "lsm_tree",
+      "category": "persistence",
+      "source_session": 79,
+      "md5": "7387f39003d1917c5fce31036f339737"
+    },
+    {
+      "pattern": "hotp_totp",
+      "category": "security",
+      "source_session": 80,
+      "md5": "c25fffaaf5704623d8bfe5a402010523"
+    },
+    {
+      "pattern": "capability_access",
+      "category": "security",
+      "source_session": 81,
+      "md5": "0f29293f401db619ece799ba51ba7192"
+    },
+    {
+      "pattern": "consistent_hash_ring",
+      "category": "distributed",
+      "source_session": 82,
+      "md5": "a7f8a49c9be148b528480e6cb9023b3a"
+    },
+    {
+      "pattern": "gossip_protocol",
+      "category": "distributed",
+      "source_session": 83,
+      "md5": "a4052a1c460a118fe3f81efea3adc77c"
+    },
+    {
+      "pattern": "async_task_queue",
+      "category": "async",
+      "source_session": 84,
+      "md5": "adbf01cf56d30e4b60c24ff44a15b1bc"
+    },
+    {
+      "pattern": "image_stats",
+      "category": "vision",
+      "source_session": 89,
+      "md5": "8c204acfc4138ab4b7f53d3b8342df78"
+    },
+    {
+      "pattern": "fenwick_tree",
+      "category": "data_structures",
+      "source_session": 90,
+      "md5": "0da70477a7452dfee5a09d23c4f084e3"
+    },
+    {
+      "pattern": "window_sampler",
+      "category": "monitoring",
+      "source_session": 92,
+      "md5": "e5ef59855db83a40a25b9346d2c39f61"
+    },
+    {
+      "pattern": "event_logger",
+      "category": "monitoring",
+      "source_session": 93,
+      "md5": "cfd73f91a08d603b3dcba185d0988056"
+    },
+    {
+      "pattern": "http_retry_client",
+      "category": "networking",
+      "source_session": 95,
+      "md5": "ad5d230091fb37e0d5c7c241e931ea02"
+    },
+    {
+      "pattern": "chunked_reader",
+      "category": "io",
+      "source_session": 96,
+      "md5": "cc86e479ce56c1e91eee81292532a31a"
+    },
+    {
+      "pattern": "csv_validator",
+      "category": "io",
+      "source_session": 97,
+      "md5": "6b6bec891be2de3d91981f32d1b9f0bd"
+    },
+    {
+      "pattern": "dependency_graph",
+      "category": "reasoning",
+      "source_session": 98,
+      "md5": "5f3a2a6a159de6a8bbd23c578db19470"
+    },
+    {
+      "pattern": "rule_engine",
+      "category": "reasoning",
+      "source_session": 99,
+      "md5": "40619a3a2cb2b8f4a1fa72cd06e2ddac"
+    },
+    {
+      "pattern": "lru_cache",
+      "category": "performance",
+      "source_session": 100,
+      "md5": "a26d514dd9a8e5afa80d741691be1887"
+    },
+    {
+      "pattern": "bulkhead_isolator",
+      "category": "resilience",
+      "source_session": 102,
+      "md5": "abc6f397a4aaacfc5cbffb5630ba38fd"
+    },
+    {
+      "pattern": "timeout_guard",
+      "category": "resilience",
+      "source_session": 103,
+      "md5": "45ce6644d31eb38f670e176e709520df"
+    },
+    {
+      "pattern": "plugin_registry",
+      "category": "architecture",
+      "source_session": 104,
+      "md5": "59d361b368e2be9b62c01a7ef25165b9"
+    },
+    {
+      "pattern": "event_bus",
+      "category": "architecture",
+      "source_session": 105,
+      "md5": "e60fbfdd132fb3055d6048096d457f48"
+    },
+    {
+      "pattern": "priority_task_scheduler",
+      "category": "data_structures",
+      "source_session": 106,
+      "md5": "cf40fa2d85fa567047b43a634e38dc4d"
+    },
+    {
+      "pattern": "skip_list",
+      "category": "data_structures",
+      "source_session": 107,
+      "md5": "95fa3239c082128fed86cca5508875a4"
+    },
+    {
+      "pattern": "time_series_db",
+      "category": "monitoring",
+      "source_session": 108,
+      "md5": "8294b17fdc1b4970fdf40a56c832b26c"
+    },
+    {
+      "pattern": "metric_aggregator",
+      "category": "monitoring",
+      "source_session": 109,
+      "md5": "ce7bfd405674472aec695901cf8d1edb"
+    },
+    {
+      "pattern": "pubsub_broker",
+      "category": "async",
+      "source_session": 110,
+      "md5": "fc22ebdda561f77a91420c240627d12c"
+    },
+    {
+      "pattern": "connection_pool",
+      "category": "networking",
+      "source_session": 111,
+      "md5": "ab8d82e053e3debd2ed6d26e065c7f19"
+    },
+    {
+      "pattern": "diff_engine",
+      "category": "io",
+      "source_session": 112,
+      "md5": "0b2e22b42169b625b311f96fbb219ea3"
+    },
+    {
+      "pattern": "resource_budget_allocator",
+      "category": "performance",
+      "source_session": 113,
+      "md5": "42659cf6aa12945436f6c343ae3a9996"
+    },
+    {
+      "pattern": "state_machine",
+      "category": "architecture",
+      "source_session": 114,
+      "md5": "39b6edb1c6b73b9cbc380f7919e27523"
+    },
+    {
+      "pattern": "expression_evaluator",
+      "category": "reasoning",
+      "source_session": 115,
+      "md5": "5debe9b9f04a0b02a467c749c4f0fbe5"
+    },
+    {
+      "pattern": "avl_tree",
+      "category": "data_structures",
+      "source_session": 116,
+      "md5": "e82d057bc2a32190227a2304de1e07ac"
+    },
+    {
+      "pattern": "segment_tree",
+      "category": "data_structures",
+      "source_session": 117,
+      "md5": "ad965e75c57e13947e3304417480e33a"
+    },
+    {
+      "pattern": "log_pattern_matcher",
+      "category": "monitoring",
+      "source_session": 118,
+      "md5": "dc04c8e5f9da7a56d3f4f381afd29307"
+    },
+    {
+      "pattern": "http_router",
+      "category": "networking",
+      "source_session": 121,
+      "md5": "cd65bd6b300e9e0a22b4e44c9235358b"
+    },
+    {
+      "pattern": "log_parser",
+      "category": "io",
+      "source_session": 122,
+      "md5": "7c50749c07e31d644c0d5d55e3bc3931"
+    },
+    {
+      "pattern": "job_scheduler",
+      "category": "performance",
+      "source_session": 123,
+      "md5": "e77637f3346c44c1ecee6a54ca6ce38c"
+    },
+    {
+      "pattern": "message_encoder",
+      "category": "architecture",
+      "source_session": 124,
+      "md5": "ad2c1ddf28041a80419d15fb36b5b3af"
+    },
+    {
+      "pattern": "csp_solver",
+      "category": "reasoning",
+      "source_session": 125,
+      "md5": "49cb07abbcc00862cc5e75f90c3f7387"
+    },
+    {
+      "pattern": "red_black_tree",
+      "category": "data_structures",
+      "source_session": 126,
+      "md5": "49fb0a932deadbe8859656961a87d633"
+    },
+    {
+      "pattern": "union_find",
+      "category": "data_structures",
+      "source_session": 127,
+      "md5": "c960e5ce0066dce65514fe2eb3baab46"
+    },
+    {
+      "pattern": "alert_manager",
+      "category": "monitoring",
+      "source_session": 128,
+      "md5": "adbacf1af39442fab80ed39948da0ca0"
+    },
+    {
+      "pattern": "distributed_lock_manager",
+      "category": "distributed",
+      "source_session": 129,
+      "md5": "8948288e82cb0204d603bbd19d7b100f"
+    },
+    {
+      "pattern": "ini_parser",
+      "category": "io",
+      "source_session": 132,
+      "md5": "e0998e8beacd7a05c2d4b1ac31256df7"
+    },
+    {
+      "pattern": "token_bucket",
+      "category": "performance",
+      "source_session": 133,
+      "md5": "3f3f9f922d61a4f7983c7a40ee0063dc"
+    },
+    {
+      "pattern": "sat_solver",
+      "category": "reasoning",
+      "source_session": 135,
+      "md5": "08afa3b77bfa6da614ea107ffaeda84b"
+    },
+    {
+      "pattern": "treap",
+      "category": "data_structures",
+      "source_session": 137,
+      "md5": "f470169f0eb92ced755732eabec77910"
+    },
+    {
+      "pattern": "metrics_formatter",
+      "category": "monitoring",
+      "source_session": 138,
+      "md5": "b5bec0faed0af5e2162970bc6bd4d9b8"
+    },
+    {
+      "pattern": "g_counter_crdt",
+      "category": "distributed",
+      "source_session": 139,
+      "md5": "d03cdc03bce69a18116d44cdde3f00ee"
+    },
+    {
+      "pattern": "url_router",
+      "category": "networking",
+      "source_session": 141,
+      "md5": "6023ad50cbda629ca5312021e7b8bd61"
+    },
+    {
+      "pattern": "work_stealing_queue",
+      "category": "performance",
+      "source_session": 143,
+      "md5": "806608a7e91d22ca96eb7a7c018105b5"
+    },
+    {
+      "pattern": "minimax_game_search",
+      "category": "reasoning",
+      "source_session": 145,
+      "md5": "b8a38c21ea221dbea59e87efa04e5972"
+    },
+    {
+      "pattern": "ordered_map",
+      "category": "data_structures",
+      "source_session": 146,
+      "md5": "9d8f38b5b7d5d070a88bba9a431da0e3"
+    },
+    {
+      "pattern": "kd_tree",
+      "category": "data_structures",
+      "source_session": 147,
+      "md5": "d5ab4bbaca93fbf98bcfaa92e25fbb0b"
+    },
+    {
+      "pattern": "trace_collector",
+      "category": "monitoring",
+      "source_session": 148,
+      "md5": "8a8cd2aa0ca3e857749536f4132aed41"
+    },
+    {
+      "pattern": "vector_clock",
+      "category": "distributed",
+      "source_session": 149,
+      "md5": "a30bc1e12cdfabc9d074153bc9cff977"
+    },
+    {
+      "pattern": "template_engine",
+      "category": "io",
+      "source_session": 152,
+      "md5": "1b64a7ad9d86f2240cbef58dd475d21a"
+    },
+    {
+      "pattern": "free_list_allocator",
+      "category": "performance",
+      "source_session": 153,
+      "md5": "59077ca0b235900c12673f4d99691f68"
+    },
+    {
+      "pattern": "astar_pathfinding",
+      "category": "reasoning",
+      "source_session": 155,
+      "md5": "09be31b98ce6258fc930ead74f717420"
+    },
+    {
+      "pattern": "persistent_deque",
+      "category": "data_structures",
+      "source_session": 156,
+      "md5": "97c2732427214ee2f3478fc0277a402d"
+    },
+    {
+      "pattern": "interval_tree",
+      "category": "data_structures",
+      "source_session": 157,
+      "md5": "4645293c4d06233fa6cb682b9edb146c"
+    },
+    {
+      "pattern": "trace_sampler",
+      "category": "monitoring",
+      "source_session": 158,
+      "md5": "7f34694fd0ea3ce84e4a9a1a13006cea"
+    },
+    {
+      "pattern": "crdt_sets",
+      "category": "distributed",
+      "source_session": 159,
+      "md5": "2c02a15931005277db549220914b1a50"
+    },
+    {
+      "pattern": "cancellable_task_group",
+      "category": "async",
+      "source_session": 160,
+      "md5": "34d88b160521f83349e9615d1f26e4af"
+    },
+    {
+      "pattern": "dns_cache",
+      "category": "networking",
+      "source_session": 161,
+      "md5": "26a138a4c37e3659591127f59ba907ff"
+    },
+    {
+      "pattern": "batch_controller",
+      "category": "performance",
+      "source_session": 163,
+      "md5": "77186ebd7ea8980e4245a30d4fd6115a"
+    },
+    {
+      "pattern": "decision_tree",
+      "category": "reasoning",
+      "source_session": 165,
+      "md5": "c1f6e3535e8238efecf000e2adbfe8d3"
+    },
+    {
+      "pattern": "suffix_array",
+      "category": "data_structures",
+      "source_session": 166,
+      "md5": "d549d7b4cb48b587c50ab8a077d906df"
+    },
+    {
+      "pattern": "radix_tree",
+      "category": "data_structures",
+      "source_session": 167,
+      "md5": "69616ab366c002e2eca2586a5aa1273f"
+    },
+    {
+      "pattern": "timer_stack",
+      "category": "monitoring",
+      "source_session": 168,
+      "md5": "72919b3b323b8a2487bbd10cab0c1856"
+    },
+    {
+      "pattern": "quorum_consensus",
+      "category": "distributed",
+      "source_session": 169,
+      "md5": "3d21ce3ba9237ccac04318ae2e4f5e65"
+    },
+    {
+      "pattern": "reactive_signals",
+      "category": "async",
+      "source_session": 170,
+      "md5": "b0f1f4a78109ec166bc68166f87e79f7"
+    },
+    {
+      "pattern": "packet_parser",
+      "category": "networking",
+      "source_session": 171,
+      "md5": "4abd3b55c3e5ecd25eb6b421f482fcaf"
+    },
+    {
+      "pattern": "csv_to_json",
+      "category": "io",
+      "source_session": 172,
+      "md5": "9f8653d81ef3b3819f52d1976776b0a4"
+    },
+    {
+      "pattern": "rw_lock",
+      "category": "performance",
+      "source_session": 173,
+      "md5": "e3e92110f3c9459bdbc7c812fa3a9030"
+    },
+    {
+      "pattern": "cqrs_bus",
+      "category": "architecture",
+      "source_session": 174,
+      "md5": "dff0558b1cbcea5d98c8639398ceb406"
+    },
+    {
+      "pattern": "bayesian_network",
+      "category": "reasoning",
+      "source_session": 175,
+      "md5": "73bb8b0acd4e695365b6dd0130e86e58"
+    },
+    {
+      "pattern": "merkle_tree",
+      "category": "data_structures",
+      "source_session": 176,
+      "md5": "ba4e639be5045df9d2792e82698e5aec"
+    },
+    {
+      "pattern": "binary_indexed_tree",
+      "category": "data_structures",
+      "source_session": 177,
+      "md5": "bc27550e81682f797ad0351607add890"
+    },
+    {
+      "pattern": "service_registry",
+      "category": "distributed",
+      "source_session": 178,
+      "md5": "d04f5095180e55961c439ed1762c90b4"
+    },
+    {
+      "pattern": "rtt_estimator",
+      "category": "networking",
+      "source_session": 180,
+      "md5": "bab1789beb979b48f526e5152c64b0f4"
+    },
+    {
+      "pattern": "arg_parser",
+      "category": "io",
+      "source_session": 181,
+      "md5": "37f2cffa2ab38a6a39cbe6eaf7141220"
+    },
+    {
+      "pattern": "hyperloglog",
+      "category": "performance",
+      "source_session": 182,
+      "md5": "5958feb50e6676e3a563bafc258a816b"
+    },
+    {
+      "pattern": "bloom_filter",
+      "category": "data_structures",
+      "source_session": 183,
+      "md5": "9f727983fcc1d79441ef587210ae8715"
+    }
+  ]
+}
