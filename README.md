@@ -175,7 +175,7 @@ python3 tools/run_gate.py                          # run the whole gate yourself
 ## Quality bar
 
 "Run-gated" means: we do not claim a pattern works — we run it, on the commit that ships it,
-and keep the log. The gate script is in this repo; CI re-runs it on every push. If a pattern
+and keep the log. The gate script ships in this repo — one command re-verifies every claim yourself — and a CI workflow is included that re-runs it on every push. If a pattern
 is listed here, it executed cleanly with a 90-second timeout on the day of the commit.
 
 ## Provenance — stated honestly
