@@ -185,11 +185,13 @@ then human-curated: de-duplicated, categorized, policy-checked (stdlib-only), de
 run-gated per file. `MANIFEST.json` maps every pattern to its harvest session and checksum.
 We think the honest description of this collection is: AI-generated, human-verified.
 
-## C++ twins (coming)
+## C++ twins — available now
 
-Each of these patterns is being converted to modern C++17 — compiled and self-tested on
-macOS (ARM64) and Linux (x86-64) — as a paid companion library. The free tier is this repo,
-complete, forever. Watch [realityoptimizer.app](https://realityoptimizer.app) for the release.
+Every pattern in this repo has a modern C++17 twin — compiled and self-tested on
+macOS (ARM64) and Linux (x86-64), delivered side-by-side with its Python original,
+verification logs included. The free tier is this repo, complete, forever.
+
+**[Get the C++ Twins →](https://ihladkyi.gumroad.com/l/cpp-twins)** — $29, all 99 patterns, free updates for life.
 
 ## License
 
