@@ -1,1 +1,4 @@
 __pycache__/
+demo_logs/
+.DS_Store
+gate_logs/*.tmp

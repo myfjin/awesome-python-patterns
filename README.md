@@ -178,6 +178,18 @@ python3 tools/run_gate.py                          # run the whole gate yourself
 and keep the log. The gate script ships in this repo — one command lets you re-verify every claim yourself — and CI re-runs it on every push. If a pattern
 is listed here, it executed cleanly with a 90-second timeout on the day of the commit.
 
+### Two verification instruments (which one you're holding)
+
+This free sample's verifier is **`tools/run_gate.py`** — it re-runs all 99 patterns in this
+repo and is the command to use here. The **full AURA Pattern Library** (934 patterns / 1,399
+files across Python, C++, Go, Rust and R) has a second, library-wide instrument,
+**`tools/census.py`**, which sweeps every file for run-validity, real assertions, and
+determinism (3 runs, byte-identical output) and reconciles the counts against the signed
+catalog. `census.py` ships with the full library, not with this sample — if an email or doc
+pointed you at it, on this repo the equivalent command is `python3 tools/run_gate.py`.
+Full-library access (including `census.py` and its reproducible census results) is available
+on request.
+
 ## Provenance — stated honestly
 
 These patterns were machine-harvested from **qwen3-coder:480b** (Apache 2.0, via Ollama cloud),
